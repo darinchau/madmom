@@ -22,7 +22,7 @@ import numpy as np
 cimport numpy as np
 cimport cython
 
-from numpy.math cimport INFINITY
+from libc.math cimport INFINITY
 
 
 ctypedef np.uint32_t uint32_t
